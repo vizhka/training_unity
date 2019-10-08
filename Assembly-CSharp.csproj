@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scriptes\FallDown.cs" />
     <Compile Include="Assets\Scriptes\MovePlayer.cs" />
     <Compile Include="Assets\Scriptes\Player.cs" />
+    <Compile Include="Assets\Scriptes\Restart.cs" />
     <Compile Include="Assets\Scriptes\SpawnBombs.cs" />
     <Compile Include="Assets\spawnBombs.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
