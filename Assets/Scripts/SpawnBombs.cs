@@ -8,8 +8,8 @@ public class SpawnBombs : MonoBehaviour {
     IEnumerator Spawn () {
         while (!Player.lose)
         {
-            Instantiate (bomb, new Vector2 (Random.Range (-2.33f, 2.33f), 5.19f), Quaternion.identity);
-            yield return new WaitForSeconds (1.2f);
+            Instantiate (bomb, new Vector2 (Random.Range (-2.35f, 2.35f), 5.19f), Quaternion.identity);
+            yield return new WaitForSeconds (0.8f);
         }
     }
     }

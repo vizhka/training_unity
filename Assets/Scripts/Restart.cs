@@ -3,6 +3,6 @@ using UnityEngine.SceneManagement;
 public class Restart : MonoBehaviour
 {
     void OnMouseDown() {
-        SceneManager.LoadScene("main");
+        SceneManager.LoadScene("Main");
     }
 }

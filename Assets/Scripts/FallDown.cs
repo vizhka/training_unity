@@ -2,10 +2,10 @@
 
 public class FallDown : MonoBehaviour
 { [SerializeField]
-    private float fallSpeed = 3f;
+    private float fallSpeed = 3.8f;
     void Update(){
         if (transform.position.y < -5f)
-            Destroy(gameObject);
+            Destroy (gameObject);
         transform.position -= new Vector3(0, fallSpeed * Time.deltaTime, 0);
 
 
