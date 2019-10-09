@@ -63,12 +63,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scriptes\FallDown.cs" />
-    <Compile Include="Assets\Scriptes\MovePlayer.cs" />
-    <Compile Include="Assets\Scriptes\Player.cs" />
-    <Compile Include="Assets\Scriptes\Restart.cs" />
-    <Compile Include="Assets\Scriptes\SpawnBombs.cs" />
-    <Compile Include="Assets\spawnBombs.cs" />
+    <Compile Include="Assets\Scripts\FallDown.cs" />
+    <Compile Include="Assets\Scripts\MovePlayer.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
+    <Compile Include="Assets\Scripts\SpawnBombs.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/android training kit/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
